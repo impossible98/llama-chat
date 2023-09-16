@@ -23,6 +23,9 @@ install:
 	@echo -e "\033[32mInstalling dependencies...\033[0m"
 	$(YARN) install
 	@echo -e "\033[32mDependencies installed.\033[0m"
+# Start the application
+start:
+	$(YARN) run start
 ### Git ###
 # Git pull
 pull:
